@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #list{
+                font-family: Trebuchet MS,sans-serif;
+                width: 100%;
+                /* id가 list인 테이블의 폰트 설정 폭은 브라우저의 100% */
+            }
+            #list td,#list th{
+                border: 1px dotted gray;
+                text-align: center;
+                /* id가 list인 테이블의 td와 th속성 지정 경계선은
+                1픽셀두께,도트스타일,회색 텍스트 
+                정렬은 중앙 정렬 */
+            }
+            #list th{
+                color: white;
+                background-color: blue;
+                /* id가 list인 테이블의 th 속성 지정
+                텍스트 색상은 흰색, 배경색은 파랑색 */
+            }
+            #list tr.alt td{
+                background-color: yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <table id="list">
+            <tr>
+                <th>이름</th>
+                <th>이메일</th>
+            </tr>
+            <tr>
+                <td>김철수</td>
+                <td>chul@google.com</td>
+            </tr>
+            <tr class="alt">
+                <td>김영희</td>
+                <td>young@google.com</td>
+            </tr>
+            <tr>
+                <td>홍길동</td>
+                <td>hong@google.com</td>
+            </tr>
+            <tr class="alt">
+                <td>김수진</td>
+                <td>sujin@google.com</td>
+            </tr>
+        </table>
+    </body>
+</html>
