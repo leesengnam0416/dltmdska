@@ -1,10 +1,10 @@
 <template>
   <nav>
-    <router-link class="menubar" to="/baeminselfservice">배민셀프서비스 |</router-link>
-    <router-link class="menubar" to="/baeminsanghoe">배민상회 |</router-link>
-    <router-link class="menubar" to="/baeminAcademy">배민아카데미 |</router-link>
-    <router-link class="menubar" to="/baeminjangbu">배민장부 |</router-link>
-    <router-link class="menubar" to="/baeminlobos">배민로봇</router-link>
+    <router-link class="menubar" to="/baemin_selfservice">배민셀프서비스 |</router-link>
+    <router-link class="menubar" to="/baemin_sanghoe">배민상회 |</router-link>
+    <router-link class="menubar" to="/baemin_Academy">배민아카데미 |</router-link>
+    <router-link class="menubar" to="/baemin_jangbu">배민장부 |</router-link>
+    <router-link class="menubar" to="/baemin_lobos">배민로봇</router-link>
     <router-link class="menubar2" to="/join">회원가입</router-link>
     <router-link class="menubar2" to="/login">로그인 |</router-link>
     <router-link class="menubar2" to="/csc">고객센터 |</router-link>  <!--customer service center = csc 로 만듬-->
@@ -13,7 +13,7 @@
   <router-view/>
 </template>
 
-<style>
+<style scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -24,7 +24,7 @@
 
 .menubar {
   display: block;
-  font-size: 12px;
+  font-size: 20px;
   font-weight: lighter;
   font-family: cursive;
   float: left;
@@ -32,7 +32,7 @@
 
 .menubar2 {
   display: inline-block;
-  font-size: 12px;
+  font-size: 20px;
   font-weight: lighter;
   font-family: cursive;
   float: right;
